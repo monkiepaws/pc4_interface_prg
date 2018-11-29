@@ -1,0 +1,55 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+.App {
+  text-align: center;
+}
+
+.login {
+  display: flex;
+  margin-left: auto;
+}
+
+.board {
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.tile {
+  padding: 0;
+  border-style: unset;
+  background-color: #3f51b5;
+}
+
+.tile:hover {
+  background-color: #3f51b5;
+  border-radius: 14px;
+}
+
+.fa-circle {
+  font-size: 36pt;
+  color: aliceblue;
+  text-shadow: 2px 2px 2px darkslateblue;
+}
+
+.fa-circle:hover {
+  color: hotpink;
+}
+
+.player0 {
+  color: yellow;
+}
+
+.player1 {
+  color: red;
+}
+
+.drawer {
+  width: 300px;
+}
