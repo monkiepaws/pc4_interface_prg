@@ -23,10 +23,11 @@ class Board extends Component {
                 row: tile.row,
                 player: this.props.playerTurn
             };
-            const newBoard = this.props.board.concat();
-            newBoard[tile.row][tile.column] = turn;
-            const newTurns = this.props.turns.concat(turn);
-            this.props.onBoardChange(newBoard, newTurns, this.changeTurn());
+            // const newBoard = this.props.board.concat();
+            // newBoard[tile.row][tile.column] = turn;
+            // const newTurns = this.props.turns.concat(turn);
+            // this.props.onBoardChange(newBoard, newTurns, this.changeTurn());
+            this.props.onTurn(turn, this.changeTurn());
         }
     }
 
