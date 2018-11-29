@@ -32,13 +32,13 @@
   border-radius: 14px;
 }
 
-.fa-circle {
+.fas, .far {
   font-size: 36pt;
   color: aliceblue;
   text-shadow: 2px 2px 2px darkslateblue;
 }
 
-.fa-circle:hover {
+.fas:hover, .far:hover {
   color: hotpink;
 }
 

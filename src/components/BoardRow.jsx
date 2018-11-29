@@ -21,7 +21,7 @@ class BoardRow extends Component {
         if (tile.player === null) {
             return EMPTY_TILE;
         } else {
-            return OWNED_TILE;
+            return tile.player.icon;
         }
     }
 
